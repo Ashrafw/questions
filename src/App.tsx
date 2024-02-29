@@ -11,9 +11,9 @@ function App() {
     <div className="">
       <Navbar />
       <Routes>
-        <Route path="/" Component={Home} />
-        <Route path="/Questionnaire" Component={Questionnaire} />
-        <Route path="/ThankYou" Component={ThankYou} />
+        <Route path="questions/" Component={Home} />
+        <Route path="questions/Questionnaire" Component={Questionnaire} />
+        <Route path="questions/ThankYou" Component={ThankYou} />
       </Routes>
     </div>
   );

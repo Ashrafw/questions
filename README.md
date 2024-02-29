@@ -124,4 +124,3 @@ const handleSubmit = () => {
 ```
 
 This function checks if the user has provided responses to all questions before submission. If so, it sends the responses to the API using the `ApiService` function. Additionally, the user's answers are stored using Zustand for potential future use in other components.
-# questions
