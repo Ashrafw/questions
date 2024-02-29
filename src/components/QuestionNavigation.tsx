@@ -21,7 +21,7 @@ export default function QuestionNavigation({
       <button
         onClick={() => setQuestionNum((prev) => prev - 1)}
         disabled={questionNum === 0}
-        className={`py-2 mt-10 m-auto px-6 text-xl shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
+        className={`py-2 mt-10 m-auto px-6 text-xl max-sm:text-base shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
           questionNum === 0 ? "opacity-0" : ""
         }`}
       >
@@ -31,7 +31,7 @@ export default function QuestionNavigation({
         <button
           onClick={() => setQuestionNum((prev) => prev + 1)}
           disabled={isAnswered}
-          className={`py-2 mt-10 m-auto px-6 text-xl shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
+          className={`py-2 mt-10 m-auto px-6 text-xl max-sm:text-base shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
             isAnswered && "opacity-10"
           }`}
         >
@@ -41,7 +41,7 @@ export default function QuestionNavigation({
         <button
           onClick={handleSubmit}
           disabled={isAnswered}
-          className={`py-2 mt-10 m-auto px-6 text-xl shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
+          className={`py-2 mt-10 m-auto px-6 text-xl max-sm:text-base shadow font-semibold min-w-[140px] flex items-center justify-center rounded bg-sky-700 hover:bg-sky-800 text-gray-50 ${
             isAnswered && "opacity-10"
           }`}
         >

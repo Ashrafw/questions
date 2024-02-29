@@ -17,15 +17,15 @@ export default function LinearProgress({
       <div className="absolute z-0 top-1/2 -translate-y-1/2 w-full h-4  bg-gray-200 rounded-full"></div>
       <div
         style={{ width: `${percentage}%` }}
-        className={` absolute h-4 top-1/2 -translate-y-1/2 bg-green-500 rounded-full  transition-all ease`}
+        className={` absolute h-4 top-1/2 -translate-y-1/2 bg-sky-600 rounded-full  transition-all ease`}
       ></div>
       <div className="flex justify-between z-50 ">
         {questionNumbers.map((num) => (
           <div
             key={uuid()}
             className={` ${
-              num <= currentQuestion ? "bg-green-600 border-white text-white" : "bg-white"
-            } font-bold z-50 border-emerald-500 rounded-full flex items-center justify-center border-2 h-8 w-8`}
+              num <= currentQuestion ? "bg-sky-600 border-white  text-white" : "bg-white"
+            } font-bold z-50 border-sky-600 rounded-full flex items-center justify-center border-2 h-8 w-8`}
           >
             {num <= currentQuestion ? <Check className="font-extrabold" /> : num}
           </div>

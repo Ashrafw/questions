@@ -8,10 +8,10 @@ export default function Home({}: Props) {
     <Wrapper>
       <div className="flex flex-col items-center justify-center py-12 gap-4">
         <div className=" text-center">
-          <h1 className="font-bold text-6xl px-4 text-center mb-8">
+          <h1 className="font-bold text-6xl px-4 text-center mb-8 max-sm:text-5xl">
             Welcome to Med<span className=" text-blue-700">Express</span>
           </h1>
-          <h2 className="font-bold text-3xl px-4 text-center  text-gray-600">
+          <h2 className="font-bold text-3xl  max-sm:text-2xl px-4 text-center  text-gray-600">
             {" "}
             where your well-being is our priority.{" "}
           </h2>
@@ -20,8 +20,8 @@ export default function Home({}: Props) {
           </p>
         </div>
         <Link
-          to={"/Questionnaire"}
-          className="py-2 mt-10 px-6 shadow font-semibold rounded bg-blue-700 hover:bg-blue-800 text-slate-200"
+          to={"/questions/Questionnaire"}
+          className="py-2 mt-10 px-6 shadow font-semibold rounded bg-blue-700 hover:bg-blue-800 text-white"
         >
           Start Consultation
         </Link>

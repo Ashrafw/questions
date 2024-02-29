@@ -26,7 +26,7 @@ export default function Questionnaire() {
     if (hasUserAnsweredAll) {
       ApiService(answers);
       setAnsweredQuestion(answers);
-      navigate("/thankyou");
+      navigate("/questions/thankyou");
     }
   };
   return (

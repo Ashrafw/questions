@@ -10,9 +10,9 @@ export default function Navbar({}: Props) {
       <Wrapper>
         <div className="flex items-center gap-2 px-4">
           <Pill />
-          <Link to={"/"}>
+          <Link to={"questions/"}>
             <h1 className="text-3xl font-semibold">
-              Med<span className="text-blue-700">Express</span>
+              Med<span className="text-sky-700">Express</span>
             </h1>
           </Link>
         </div>
