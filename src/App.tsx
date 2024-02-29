@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
@@ -8,8 +7,6 @@ import Questionnaire from "./Pages/Questionnaire";
 // import
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="">
       <Navbar />
