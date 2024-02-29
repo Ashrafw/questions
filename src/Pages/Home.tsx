@@ -20,7 +20,7 @@ export default function Home({}: Props) {
           </p>
         </div>
         <Link
-          to={"/questions/Questionnaire"}
+          to={"/Questionnaire"}
           className="py-2 mt-10 px-6 shadow font-semibold rounded bg-sky-700 hover:bg-sky-800 text-white"
         >
           Start Consultation

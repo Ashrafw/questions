@@ -40,7 +40,7 @@ The project employs react-router-dom for page navigation. There are three main p
 </Routes>
 ```
 
-Sure, here's an improved version of the "Data Management" and "Questionnaire Components" sections in the README:
+Note : I've used 'HashRouter' instead of 'BrowserRouter' due to deploy with github page cause reload errors.
 
 ## Data Management (Questions)
 
