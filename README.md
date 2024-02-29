@@ -40,7 +40,7 @@ The project employs react-router-dom for page navigation. There are three main p
 </Routes>
 ```
 
-Note : I've used 'HashRouter' instead of 'BrowserRouter' due to deploy with github page cause reload errors.
+Note : I've used 'HashRouter' instead of 'BrowserRouter' since it is compatible with github page.
 
 ## Data Management (Questions)
 
@@ -60,7 +60,7 @@ In this project, we assume that the data is received via a fetch request, and it
 
 ### Handling the Data:
 
-The project uses `useEffect` to create a new array, adding an additional parameter "response," and saving it in a state.
+The project uses `useEffect` to create a new array (assuming questions will be received via an api fetch), adding an additional parameter "response," and saving it in a state.
 
 ```javascript
 useEffect(() => {
